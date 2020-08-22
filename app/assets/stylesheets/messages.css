@@ -1,0 +1,147 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.side-bar-header{
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name{
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.create-chat a{
+  font-size: 10ox;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.rooms{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+.room a{
+  color: white;
+  text-decoration: none;
+}
+.room{
+  padding: 20px 0 40px;
+}
+
+.chat{
+  width: calc(100% - 300px);
+  background-color: #ffffff;
+}
+
+.chat-header{
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-title{
+  font-size: 24px;
+  color: #333;
+  padding-top:36px;
+}
+
+.chat-end a{
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
+  text-decoration: none;
+}
+.chat-end{
+  padding-top: 40px;
+}
+
+.messages{
+  height: calc(100vh - 100px - 90px) ;
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+.message{
+  padding: 10px;
+}
+.message-data{
+  display: flex;
+}
+
+.name{
+  font-size: 16px;
+  color: #434A54;
+}
+.date{
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+
+.message-text{
+  font-size: 14px;
+  color: #434A54;
+}
+
+
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+
+.hidden{
+  display: none;
+}
