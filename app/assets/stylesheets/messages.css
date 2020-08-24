@@ -16,9 +16,10 @@
   align-items: center;
 }
 
-.user-name{
+.user-name a{
   font-size: 16px;
   color: #FAFAFA;
+  text-decoration: none;
 }
 
 .create-chat a{
